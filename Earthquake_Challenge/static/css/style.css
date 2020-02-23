@@ -1,1 +1,42 @@
- 
+html,
+body,
+#mapid {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+} 
+  .legend {
+    background-color: white;
+    border-radius: 10px;
+    -webkit-padding-start: 0px;
+    padding: 15px;
+ }
+.legend> li > div{
+  display: inline-block;
+  width:30px;
+  height:30px;
+  text-align: center;
+  margin: auto;
+  line-height: 30px;
+}
+
+
+
+
+
+
+ /* .legend {
+  padding: 10px;
+  line-height: 18px;
+  color:#555;
+  background-color: #fff;
+  border-radius: 5px;
+ }
+.legend{ 
+  float: left;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  opacity: 0.7;
+} */
